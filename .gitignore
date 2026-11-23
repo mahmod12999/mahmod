@@ -1,2 +1,19 @@
-skills/
+# أسرار — لا ترفع أبدًا
+.env
+.env.*
+!.env.example
+
+# تبعيات وبناء
 node_modules/
+.next/
+out/
+dist/
+
+# مجلدات بيئة العمل هذه (ليست جزءًا من المشروع)
+skills/
+upload/
+download/
+db/
+scripts/_scratch/
+*.log
+.DS_Store
